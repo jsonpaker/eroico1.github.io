@@ -1,0 +1,85 @@
+/* =============== mobile =============== */
+/* --footer 영역 시작 -- */
+.header{
+    display: none;
+}
+/* 메인배경 시작 */
+body{
+    background: url('../img/main1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+/* 메인배경 끝 */
+
+/* 콘텐츠 시작 */
+
+/*-로고 -*/
+.header a{
+    font-size: 4rem;
+}
+
+.header{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+    
+}
+#mainlogo{
+    font-family: 'Dancing Script', cursive;
+
+}
+.book{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 10%;
+    
+}
+#book1{
+    width: 40%;
+border: 1px solid white;
+    
+}
+#book2{
+    width: 40%;
+    border: 1px solid white;
+    margin-left: 4%;
+}
+#book1 img{
+    width: 100%;
+}
+#book2 img {
+    width: 100%;
+}
+
+
+
+/* 콘텐츠 끝 */
+
+/* =============== tablet =============== */
+
+@media ( min-width: 670px) {
+    
+    
+    
+    
+}
+/* =============== desktop =============== */
+
+@media ( min-width: 1024px) {
+    
+}
+ 
+ 
+    
+}
+@media ( min-height:500px)
+{
+    
+}
