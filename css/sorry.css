@@ -3,12 +3,6 @@
 .header{
     display: none;
 }
-#men{
-    display: none;
-}
-#women{
-    display: none;
-}
 /* 메인배경 시작 */
 body{
     background: url('../img/main1.jpg') no-repeat center center fixed;
@@ -26,7 +20,9 @@ body{
 .header a{
     font-size: 4rem;
 }
-
+.header li a{
+    font-size: 1rem;
+}
 .header{
     margin-top: 20%;
     text-align: center;
@@ -42,47 +38,22 @@ body{
     font-family: 'Dancing Script', cursive;
 
 }
+#sorry_text{
+    color: white;
+    margin-top: 150px;;
+}
+#sorry_text a{
+    font-size: 1rem;
+    color: red;
+}
+
 /* 콘텐츠 끝 */
-/* 뉴컨텐츠 */
-#sex{
-    display: flex;
-    margin-top:80px;
-}
-#sex div{
-    width:50%;
-    cursor: pointer;
-    
-}
-#sex div img{
-    width: 100%;
-    height: auto;
-    
-}
-#men{
-    border-left: 1px dashed white;
-}
-#women{
-    border-right: 1px dashed white;
-}
 
 /* =============== tablet =============== */
 
 @media ( min-width: 670px) {
     
-    #sex div{
-    width: 40%;
-    cursor: pointer;
     
-}
-    #sex{
-        margin-left: 13%;
-    }
-    #women{
-        margin-left: 5%;
-    }
-    .header{
-        margin-top: 14%;
-    }
     
     
 }
@@ -90,19 +61,6 @@ body{
 
 @media ( min-width: 1024px) {
     
-    
-    #sex{
-        width: 50%;
-        margin-left: 29%;
-    }
-    #women{
-        margin-left: 5%;
-    }
-    .header{
-    margin-top: 14%;
-    
-    
-}
 }
  
  
@@ -114,6 +72,5 @@ body{
   
     margin-top: 50px;
 }
-    
     
 }

@@ -12,10 +12,6 @@ body{
     background-size: cover;
     
 }
-#now_time{
-    margin: 0;
-    color: white;
-}
 /* 메인배경 끝 */
 
 /* 콘텐츠 시작 */
@@ -28,13 +24,15 @@ body{
     font-size: 1rem;
 }
 .header{
-    text-align: center;
-    width: 150px;
-    height: 60px;
-    margin: 0 auto;
     margin-top: 20%;
+    text-align: center;
     
     
+}
+.header div:first-child{
+    text-align: center;
+    width: 100%;
+
 }
 #mainlogo{
     font-family: 'Dancing Script', cursive;
@@ -44,13 +42,14 @@ body{
 
     font-size: 0.8rem;
     height: 20px;
-    margin-top: 15%;
+    color: white;
+    margin-top: 20px;
 }
 .header ul{
-    margin-top: 100px;
     color: white;
     line-height: 30px;
     font-family: 'Raleway', sans-serif;
+    margin-top: 100px;;
 
 }
 
