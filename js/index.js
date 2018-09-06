@@ -48,45 +48,26 @@
                 {
                     a[i-1] =i;
                 }
-            
-            
+            /*----------------시작---------------------       */
+            for(var qq=0;qq<10;qq++){
             shuffle(a);
+            
              for(var i=0; i<7;i++)
                 {
             b[i] = a[i];
                     
                 }
-            $('#contents').append("<h2>"+b+"</h2>");
-            
-           
-            
+            $('#contents').append(b+"건너뜀");
             shuffle(a);
-             for(var i=0; i<7;i++)
+            for(var i=0; i<7;i++)
                 {
             b[i] = a[i];
                     
-            }
+                }
+            $('#2').append(b+"--");
+           }
             
-            $('#contents').append("<h2>"+b+"</h2>");
-
-            
-            shuffle(a);
-             for(var i=0; i<7;i++)
-                {
-            b[i] = a[i];
-                    
-            }
-            $('#contents').append("<h2>"+b+"</h2>");
-            
-            shuffle(a);
-             for(var i=0; i<7;i++)
-                {
-            b[i] = a[i];
-                    
-            }
-          $('#contents').append("<h2>"+b+"</h2>");
-           
-            
+            /*----------------끝---------------------       */
             function compare(a,b) {return a-b;}
             b.sort(compare);
            

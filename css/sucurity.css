@@ -27,10 +27,14 @@ body{
     margin-left: 2px;
     
 }
+#sucurity div:first-child{
+    margin-left: 10px;
+}
 #sucurity{
     display: flex;
     margin: 0 auto;
      margin-top: 50px;
+    
 }
 /* 콘텐츠 시작 */
 
@@ -49,13 +53,18 @@ body{
 }
 h2{
     color: red;
-    position: absolute;
     top: 0;
+    font-size: 1rem;
+   
 }
 .header div:first-child{
     text-align: center;
     width: 100%;
 
+}
+#jnjn{
+    text-align: center;
+    
 }
 li{
     color: white;
@@ -73,9 +82,13 @@ li{
     margin-top: 20px;
 }
 #contents{
-    border: 1px solid black;
-    width: 80%;
+    margin-left: 5%;
+    margin-top: 20px;
+    background: black;
+    color: red;
+    
 }
+
 .header ul{
     color: white;
     line-height: 30px;
