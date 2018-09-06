@@ -1,0 +1,97 @@
+/* =============== mobile =============== */
+/* --footer 영역 시작 -- */
+.header{
+    display: none;
+}
+/* 메인배경 시작 */
+body{
+    background: url('../img/11.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+/* 메인배경 끝 */
+.sucurity{
+    display: none;
+}
+.sucurity input{
+    width: 50px;
+    height: 50px;
+}
+/* 콘텐츠 시작 */
+
+/*-로고 -*/
+.header a{
+    font-size: 4rem;
+}
+.header li a{
+    font-size: 1rem;
+}
+.header{
+    margin-top: 20%;
+    text-align: center;
+    
+    
+}
+.header div:first-child{
+    text-align: center;
+    width: 100%;
+
+}
+#mainlogo{
+    font-family: 'Dancing Script', cursive;
+
+}
+#now_time{
+
+    font-size: 0.8rem;
+    height: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.header ul{
+    color: white;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;;
+
+}
+#password{
+    margin-top: 200px;%;
+}
+#password span{
+    color: white;
+}
+#password input{
+    width: 100px;
+}
+
+/* 콘텐츠 끝 */
+
+/* =============== tablet =============== */
+
+@media ( min-width: 670px) {
+    
+    
+    
+    
+}
+/* =============== desktop =============== */
+
+@media ( min-width: 1024px) {
+    
+}
+ 
+ 
+    
+}
+@media ( min-height:500px)
+{
+    .header{
+  
+    margin-top: 50px;
+}
+    
+}

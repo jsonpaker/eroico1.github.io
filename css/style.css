@@ -52,7 +52,12 @@ body{
     margin-top: 100px;;
 
 }
-
+#next_page{
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+}
 /* 콘텐츠 끝 */
 
 /* =============== tablet =============== */
