@@ -18,8 +18,15 @@
                         }
                    
                     else
-                        alert("실패");
+                        alert("shit");
                 
                 };
             
+function addjunho(){
+    alert("dd");
+    
+    
+    
+    
+};
               
