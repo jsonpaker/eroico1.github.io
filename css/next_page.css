@@ -53,13 +53,20 @@ body{
 
 }
 #password{
-    margin-top: 200px;%;
+    margin-top: 200px;
+    display: flex;
+    margin-left: 28%;
+    
 }
 #password span{
     color: white;
 }
 #password input{
     width: 100px;
+    margin-left: 2%;
+}
+#password div{
+    margin-left: 3%;
 }
 
 /* 콘텐츠 끝 */
