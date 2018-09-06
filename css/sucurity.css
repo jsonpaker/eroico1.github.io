@@ -14,9 +14,23 @@ body{
 }
 /* 메인배경 끝 */
 
-.sucurity input{
+#sucurity div{
     width: 50px;
     height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    border: 1px solid black;
+    background: white;
+    margin: 0 auto;
+    margin-left: 2px;
+    
+}
+#sucurity{
+    display: flex;
+    margin: 0 auto;
+     margin-top: 50px;
 }
 /* 콘텐츠 시작 */
 
@@ -33,10 +47,19 @@ body{
     
     
 }
+h2{
+    color: red;
+    position: absolute;
+    top: 0;
+}
 .header div:first-child{
     text-align: center;
     width: 100%;
 
+}
+li{
+    color: white;
+    top: 0;
 }
 #mainlogo{
     font-family: 'Dancing Script', cursive;
@@ -49,6 +72,10 @@ body{
     color: white;
     margin-top: 20px;
 }
+#contents{
+    border: 1px solid black;
+    width: 80%;
+}
 .header ul{
     color: white;
     line-height: 30px;
@@ -57,13 +84,24 @@ body{
 
 }
 #password{
-    margin-top: 200px;%;
+    margin-top: 200px;
 }
 #password span{
     color: white;
 }
 #password input{
     width: 100px;
+}
+#lucky_button{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    color: gold;
+    font-size: 1rem;
+    border: 1px solid;
+    margin-top: 50px;
 }
 
 /* 콘텐츠 끝 */
