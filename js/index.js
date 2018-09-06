@@ -8,3 +8,18 @@
     
      
     });
+ 
+                function keypass(){
+               var junho = "960726";
+                   var junho1 = $('#junho').val();
+                    if( junho==junho1)
+                        {
+                            location.href="sucurity.html";
+                        }
+                   
+                    else
+                        alert("실패");
+                
+                };
+            
+              
